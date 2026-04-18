@@ -1,0 +1,13 @@
+#  Methodology
+
+## Choice of Framework
+Scanpy was chosen due to its scalability and strong support for single-cell analysis.
+
+## Quality Control Strategy
+Mitochondrial gene percentage was used as an indicator of cell health.
+
+## Clustering Approach
+Leiden algorithm was selected because it provides better community detection compared to Louvain.
+
+## Dimensionality Reduction
+PCA was used for noise reduction, followed by UMAP for visualization.
